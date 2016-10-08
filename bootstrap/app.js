@@ -73,7 +73,7 @@ const aliases = {
   Middleware: 'Adonis/Src/Middleware',
   Route: 'Adonis/Src/Route',
   Schema: 'Adonis/Src/Schema',
-  View: 'Adonis/Src/View'
+  View: 'Adonis/Src/View',
 }
 
 /*

@@ -15,6 +15,12 @@
 | Route.resource('user', 'UserController')
 */
 
-const Route = use('Route')
+const Route = use('Route');
 
-Route.get('/user', 'UserController.index');
+Route.group('api', function () {
+    Route.get('/user', 'UserController.index');
+    Route.get('/usercreate', 'UserController.create');
+    Route.get('/login', 'UserController.auth');
+    Route.get('/check-login', 'UserController.checkLogin');
+}).prefix("/api/v1");
+

@@ -10,7 +10,7 @@ module.exports = {
   | define multiple origins as string.
   |
   */
-  origin: false,
+  origin: true,
 
   /*
   |--------------------------------------------------------------------------
@@ -31,7 +31,7 @@ module.exports = {
   | Access-Control-Request-Headers.
   |
   */
-  headers: true,
+  headers: false,
 
   /*
   |--------------------------------------------------------------------------
